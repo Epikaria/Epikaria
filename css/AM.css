@@ -1,0 +1,45 @@
+body {
+    background-image: linear-gradient(rgb(100, 0, 100), black);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content .img img{
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}
+.content .img{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width:300px;
+}
+.content{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.content .text{
+    margin-top: 25px;
+}
+.content .text article{
+    border: 3px solid rgba(190,190,200,.5);
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom:25px ;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: aliceblue;
+    background-color: rgba(180,180,200,.25);
+}
+.content .text article h2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    font-variant: small-caps;
+}
+
+footer{
+    background-color: rgb(15, 10, 15);
+    margin: 0px;
+    padding: 10px;
+}

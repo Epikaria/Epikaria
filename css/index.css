@@ -1,0 +1,184 @@
+
+body {
+    background-image: linear-gradient(rgb(0, 0, 100), black);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content{
+    display: grid;
+    grid-gap: auto;
+    grid-template-rows: 70% 25% 25% 25%;
+}
+
+/*
+-----------
+    Index
+-----------
+*/
+.content .index {
+    grid-row: 1;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    color:rgb(190,190,200);
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.content .index .index_image{
+    grid-column: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content .index .index_image img{
+    width:250px;
+    height: 250px;
+    margin-left: 10px;
+    border: 3px solid rgb(190,190,200);
+    border-radius: 15px;
+}
+.content .index .index_text{
+    grid-column: 1 /span 2;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content .index .index_text article{
+    border: 3px solid rgb(190,190,200);
+    border-radius: 15px;
+    padding: 15px;
+}
+/*
+-----------------
+    About Me
+-----------------
+*/
+.content .AM {
+    grid-row: 2;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    color:rgb(190,190,200);
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.content .AM .AM_image{
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content .AM .AM_image img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    border: 3px solid rgb(190,190,200);
+    border-radius: 15px;
+}
+.content .AM .AM_text{
+    grid-column: 2 /span 2;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content .AM .AM_text article{
+    border: 3px solid rgb(190,190,200);
+    border-radius: 15px;
+    padding: 15px;
+}
+/*
+-----------------
+    Sceduals
+-----------------
+*/
+.content .scedual {
+    grid-row: 3;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    color:rgb(190,190,200);
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.content .scedual .scedual_image{
+    grid-row: 1;
+    grid-column: 3;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content .scedual .scedual_image img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    border: 3px solid rgb(190,190,200);
+    border-radius: 15px;
+}
+.content .scedual .scedual_text{
+    grid-column: 1 /span 2;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content .scedual .scedual_text article{
+    border: 3px solid rgb(190,190,200);
+    border-radius: 15px;
+    padding: 15px;
+}
+/*
+-----------------
+    Code Projects
+-----------------
+*/
+.content .code {
+    grid-row: 4;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    color:rgb(190,190,200);
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    height: 50px;
+}
+
+.content .code .code_image{
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content .code .code_image img{
+    width: 250px;
+    height: 250px;
+    margin-left: 10px;
+    border: 3px solid rgb(190,190,200);
+    border-radius: 15px;
+}
+.content .code .code_text{
+    grid-column: 2 /span 2;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.content .code .code_text article{
+    border: 3px solid rgb(190,190,200);
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+/*
+footer
+*/
+footer{
+    background-color: rgb(15, 10, 10);
+    margin: 0px;
+    padding: 10px;
+}

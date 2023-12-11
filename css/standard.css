@@ -1,0 +1,83 @@
+/*
+-------------------------------------------
+    Title Card
+-------------------------------------------
+*/
+
+div.tcbg{
+    background: url("../images/titlecard.png");
+    margin: 0;
+}
+div.titleCard {
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    font-size:  30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*
+-----------------------------
+Nav Bar
+-----------------------------
+*/
+
+.navBar nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-image:linear-gradient(45deg,#555, #333);
+    display: flex;
+}
+
+.navBar nav li {
+    margin: 0;
+    margin-right: 30px;
+}
+
+.navBar nav li a {
+    display: block;
+    padding: 5px 20px;
+    color: white;
+    text-decoration: none;
+    box-shadow: rgb(0, 0, 10) 2px 2px 5px ;
+    border-radius: 5px;
+    text-shadow: black 1px 1px 5px;
+}
+
+.navBar nav li a:hover {
+    border-radius: 5px;
+    background-color: #555;
+    
+}
+.navBar nav li a:active{
+    box-shadow: inset rgb(0, 0, 10) 2px 2px 5px ;
+    color:#888;
+}
+.navBar li{
+    display: inline;
+    float: left;
+    
+}
+.navBar ul{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*
+-----------------------------
+Footer
+-----------------------------
+*/
+footer ul{
+    list-style: none;
+}
